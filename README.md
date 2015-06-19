@@ -62,8 +62,8 @@ Example puppet code (save e.g. as `/etc/puppet/gw.pp`):
 
 class { 'ff_gw::sysadmin':
     # both optional, used for FFHH monitoring:
-    zabbixserver => 'argos.mschuette.name',
-    muninserver  => '78.47.49.236',
+    # zabbixserver => 'argos.mschuette.name',
+    # muninserver  => '78.47.49.236',
 
     # optional, configure hostname and public IP
     sethostname => 'gw12.hamburg.freifunk.net',
