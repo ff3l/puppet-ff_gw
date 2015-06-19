@@ -88,7 +88,7 @@ class { 'ff_gw':
     # as number for icvpn peering
     ff_as           => '65112',
 
-    # network config (example data for gw12)
+    # network config (example data for gw4)
     mesh_mac        => 'de:ad:be:ef:01:14',
     gw_ipv4         => '10.112.30.1',
     gw_ipv6         => 'fd51:2bb2:fd0d::501',
