@@ -2,8 +2,8 @@
 
 Martin Schütte <info@mschuette.name>
 
-This module tries to automate the configuration of a Freifunk (Hamburg) Gateway.
-The idea is to implement the step-by-step guide on http://wiki.freifunk.net/Freifunk_Hamburg/Gateway
+This module tries to automate the configuration of a Freifunk (Dreiländereck) Gateway.
+The idea is to implement the step-by-step guide on http://wiki.freifunk-3laendereck.net/Gateways
 
 A generalization for other communities would be nice, but right now this is all
 experimental and we will be glad when it works for our own gateways.
@@ -20,7 +20,7 @@ design pattern.
   do that manually or run a small `ff_gw::sysadmin`-only manifest before the
   main `ff_gw` manifest.
 * User root requires ssh access to the git repository
-  `git@git.hamburg.freifunk.net:fastdkeys` --
+  `git@git.ff3l.net:fastdkeys` --
   so create a key and have it authorized beforehand.
 
 ## Usage
@@ -45,7 +45,7 @@ downloaded manually):
 
 ```
 cd /etc/puppet/modules
-git clone https://github.com/freifunkhamburg/puppet-ff_gw.git ff_gw
+git clone https://github.com/ff3l/puppet-ff_gw.git ff_gw
 ```
 
 ### Parameters
